@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: darkmagenta;
+ 
+}
+.imagen {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/*-------------Animacion-------------*/
+h6{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer{
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
